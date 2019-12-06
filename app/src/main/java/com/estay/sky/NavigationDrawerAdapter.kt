@@ -8,9 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.estay.sky.R
-import com.estay.sky.MainActivity
-import com.Aryan.echo.fragments.*
+import com.estay.echo.fragments.*
 
 class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages: IntArray, _context: Context)
     : RecyclerView.Adapter<NavigationDrawerAdapter.NavViewHolder>() {
