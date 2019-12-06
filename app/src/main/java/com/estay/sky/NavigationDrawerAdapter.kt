@@ -1,4 +1,4 @@
-package com.Aryan.echo.adapters
+package com.estay.sky
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -8,12 +8,9 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.Aryan.echo.R
-import com.Aryan.echo.activities.MainActivity
-import com.Aryan.echo.fragments.AboutUsFragment
-import com.Aryan.echo.fragments.FavoriteFragment
-import com.Aryan.echo.fragments.MainScreenFragment
-import com.Aryan.echo.fragments.SettingsFragment
+import com.estay.sky.R
+import com.estay.sky.MainActivity
+import com.Aryan.echo.fragments.*
 
 class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages: IntArray, _context: Context)
     : RecyclerView.Adapter<NavigationDrawerAdapter.NavViewHolder>() {
@@ -62,6 +59,7 @@ class NavigationDrawerAdapter(_contentList: ArrayList<String>, _getImages: IntAr
                         .addToBackStack("AboutUsFragment")
                         .commit()
             }
+
             MainActivity.Statified.drawerLayout?.closeDrawers()
 
         })

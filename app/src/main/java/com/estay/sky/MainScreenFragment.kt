@@ -1,4 +1,4 @@
-package com.Aryan.echo.fragments
+package com.estay.sky
 
 import android.app.Activity
 import android.content.Context
@@ -15,9 +15,9 @@ import android.widget.ImageButton
 import android.widget.ImageView
 import android.widget.RelativeLayout
 import android.widget.TextView
-import com.Aryan.echo.R
-import com.Aryan.echo.Songs
-import com.Aryan.echo.adapters.MainScreenAdapter
+import com.estay.sky.R
+import com.estay.sky.Songs
+import com.estay.sky.MainScreenAdapter
 import java.util.*
 
 

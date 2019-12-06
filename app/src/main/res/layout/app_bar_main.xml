@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    tools:context="com.estay.sky.MainActivity">
 
 <RelativeLayout
     android:layout_width="match_parent"
@@ -28,7 +28,7 @@
         android:layout_below="@id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        class="com.Aryan.echo.fragments.MainScreenFragment"
+        class="com.estay.sky.MainScreenFragment"
         android:id="@+id/details_fragment"/>
 </RelativeLayout>
 

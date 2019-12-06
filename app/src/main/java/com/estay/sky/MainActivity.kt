@@ -1,4 +1,4 @@
-package com.Aryan.echo.activities
+package com.estay.sky
 
 import android.annotation.TargetApi
 import android.app.Notification
@@ -15,12 +15,12 @@ import android.support.v7.widget.DefaultItemAnimator
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.Toolbar
-import com.Aryan.echo.R
-import com.Aryan.echo.adapters.NavigationDrawerAdapter
-import com.Aryan.echo.fragments.MainScreenFragment
+import com.estay.sky.R
+import com.estay.sky.NavigationDrawerAdapter
+import com.estay.sky.MainScreenFragment
 import android.support.v4.app.Fragment
 import android.support.v4.app.FragmentActivity
-import com.Aryan.echo.fragments.SongPlayingFragment
+import com.estay.sky.SongPlayingFragment
 
 class MainActivity : AppCompatActivity() {
     object Statified {
@@ -45,6 +45,7 @@ class MainActivity : AppCompatActivity() {
         navigationDrawerIconsList.add("Favorites")
         navigationDrawerIconsList.add("Settings")
         navigationDrawerIconsList.add("About Us")
+       // navigationDrawerIconsList.add("Onlin Music")
 
         val toggle = ActionBarDrawerToggle(this@MainActivity, MainActivity.Statified.drawerLayout, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close)
         MainActivity.Statified.drawerLayout?.setDrawerListener(toggle)

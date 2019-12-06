@@ -1,10 +1,10 @@
-package com.Aryan.echo.databases
+package com.estay.sky
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-import com.Aryan.echo.Songs
+import com.estay.sky.Songs
 
 class EchoDatabase : SQLiteOpenHelper {
 

@@ -1,12 +1,12 @@
-package com.Aryan.echo.utils
+package com.estay.sky
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.telephony.TelephonyManager
-import com.Aryan.echo.R
-import com.Aryan.echo.activities.MainActivity
-import com.Aryan.echo.fragments.SongPlayingFragment
+import com.estay.sky.R
+import com.estay.sky.MainActivity
+import com.estay.sky.SongPlayingFragment
 
 class CaptureBroadcast : BroadcastReceiver() {
     override fun onReceive(p0: Context?, p1: Intent?) {

@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.support.v4.app.Fragment
 import android.view.*
 import android.widget.Switch
-import com.Aryan.echo.R
+import com.estay.sky.R
 
 
 

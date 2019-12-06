@@ -1,4 +1,4 @@
-package com.Aryan.echo.adapters
+package com.estay.sky
 
 import android.content.ContentValues.TAG
 import android.content.Context
@@ -11,11 +11,11 @@ import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
 import android.widget.Toast
-import com.Aryan.echo.R
-import com.Aryan.echo.Songs
-import com.Aryan.echo.activities.MainActivity
-import com.Aryan.echo.fragments.MainScreenFragment
-import com.Aryan.echo.fragments.SongPlayingFragment
+import com.estay.sky.R
+import com.estay.sky.Songs
+import com.estay.sky.MainActivity
+import com.estay.sky.MainScreenFragment
+import com.estay.sky.SongPlayingFragment
 
 class MainScreenAdapter(_songDetails: ArrayList<Songs>, _context: Context)
     : RecyclerView.Adapter<MainScreenAdapter.MyViewHolder>() {
